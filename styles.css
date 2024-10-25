@@ -1,0 +1,145 @@
+/* Dark mode with soft pink and purple retro 90s style */
+body {
+    font-family: "MS PGothic", sans-serif;
+    background-color: #241526; /* Dark muted purple fallback */
+    color: #f5e6f7; /* Very soft pinkish-white text */
+    text-align: center;
+    background-image: url('bg.gif'); /* Background image */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 304px 234px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid #7a607a; /* Soft purple border */
+    background-color: rgba(48, 32, 53, 0.8); /* Dark muted purple container with transparency */
+    padding: 10px;
+}
+
+.header {
+    background-color: rgba(82, 48, 94, 0.8); /* Soft purple for header with transparency */
+    padding: 10px;
+    border-bottom: 2px solid #9b7b9b; /* Light purple border */
+    position: relative; /* Allows positioning of child elements */
+}
+
+.header-image {
+    width: 400px; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    opacity: 0.8; /* Adjust transparency if desired */
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ffdee8; /* Soft pastel pink for header */
+}
+
+.header p {
+    margin: 5px 0;
+    color: #ffdee8; /* Gentle pastel pink for welcome text */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    background-color: rgba(115, 81, 115, 0.8); /* Muted purple background with transparency */
+    border: 2px solid #b89bb8; /* Soft pastel border */
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: #ffffff; /* White for links */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #ffdee8; /* Very soft pink hover effect */
+}
+
+.main {
+    padding: 10px;
+}
+
+.main h2 {
+    font-size: 24px;
+    color: #ffdee8; /* Light pink for headers */
+}
+
+.main p, .main ul {
+    text-align: left;
+    margin: 10px 20px;
+    color: #f5e6f7; /* Very soft light pink for body text */
+}
+
+.main details {
+    text-align: left;
+    margin: 10px 20px;
+    color: #ffffff; /* Very soft light pink for body text */
+}
+
+
+
+details.ss img {
+    width: 740px;
+}
+
+
+.main ul {
+    list-style: disc;
+}
+
+/* Specific styles for the list items and links under the "Links" section */
+.main ul li {
+    color: #ffffff; /* White for list items */
+    list-style:none;
+}
+
+.main ul li a {
+    color: #ffffff; /* White for links in the list */
+    list-style:none;
+    text-decoration: none;
+}
+
+.main ul li a:hover {
+    text-decoration: underline;
+    list-style:none;
+    color: #ffdee8; /* Soft pink hover effect for links in the list */
+}
+
+/* White email link */
+.main a[href^="mailto:"] {
+    color: #ffffff; /* White for email link */
+    text-decoration: none;
+}
+
+.main a[href^="mailto:"]:hover {
+    text-decoration: underline;
+    color: #ffdee8; /* Soft pink hover effect for email link */
+}
+
+.footer {
+    background-color: rgba(82, 48, 94, 0.8); /* Soft purple footer with transparency */
+    padding: 5px;
+    border-top: 2px solid #9b7b9b;
+    font-size: 14px;
+    color: #f2c7e5;
+}
+
+a:before {
+    content: "▶ ";
+    font-size: 14px;
+    color: #ffffff; /* White arrow before links */
+}
